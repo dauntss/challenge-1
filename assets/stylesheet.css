@@ -1,0 +1,140 @@
+* {
+    font-family:montserrat alternates, sans-serif;
+    box-sizing:border-box;
+    background-origin:border-box;
+  }
+  
+  body {
+    background:linear-gradient(to bottom right, #ffb7c5, #ef6f88) no-repeat;
+    padding:0;
+    margin:0;
+    font-size:16px;
+  }
+  
+  header {
+    background:#ffffff66;
+    width:100%;
+    padding:25px 25px;
+    position:fixed;
+    top:0;
+    left:0;
+    border-bottom:1px solid #fff;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:50px;
+  }
+  
+  header a:link, header a:active, header a:visited {
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    letter-spacing:2.5px;
+    transition-duration:0.3s;
+    font-size:20px;
+  }
+  
+  header a:hover {
+    color:#51cacc;
+  }
+  
+  h1 {
+    margin:100px 0 25px;
+    text-align:center;
+    padding:0;
+    color:#fff;
+    letter-spacing:2px;
+    font-size:48px;
+  }
+  
+  .comingsoon {
+    display:block;
+    margin:0 auto;
+    padding:0;
+    border:2px dotted #fff;
+    border-radius:50%;
+  }
+  
+  p {
+    color:#fff;
+    letter-spacing:1px;
+    line-height:150%;
+    padding:0 10%;
+    text-align:justify;
+    margin:40px 0 0;
+  }
+  
+  .contact {
+    width:50%;
+    margin: 50px auto 10%;
+    min-width:400px;
+    background:#51cacc;
+    color:#fff;
+    padding:10px 25px 25px;
+    border-radius:25px;
+    border:2px dotted #fff;
+  }
+  
+  h2 {
+    color:#fff;
+    text-align:center;
+    text-decoration:underline;
+    letter-spacing:1px;
+  }
+  
+  div {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:0 20px;
+    margin:0 0 10px;
+  }
+  
+  label {
+    letter-spacing:1px;
+    width:55px;
+  }
+  
+  input {
+    flex-grow:2;
+    border:1px solid #fff;
+    background:#ffffff66;
+    color:#000;
+    padding:3px 10px;
+    font-size:14px;
+  }
+  
+  input:active {
+    background:#ffffff66;
+  }
+  
+  button {
+    margin: 15px auto 5px;
+    display:block;
+    padding:10px 25px;
+    border-radius:10px;
+    background:#ffb7c5;
+    color:#fff;
+    letter-spacing:2px;
+    font-weight:bold;
+    font-size:16px;
+    text-transform:uppercase;
+    border:1px solid #fff;
+    box-shadow:2px 2px 3px #fff;
+    cursor:pointer;
+  }
+  
+  button:active {
+    transform:translate(2px, 2px);
+    box-shadow:0px 0px 3px #fff;
+  }
+  
+  footer {
+    background:#ffffff66;
+    color:#fff;
+    border-top:1px solid #fff;
+    text-align:center;
+    padding:20px;
+    letter-spacing:1px;
+  }
